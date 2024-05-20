@@ -45,7 +45,7 @@ for (let a = 1; a <= 10; a++) {
 
 let j = 1;
 while (j <= 10) {
-  if (j === 8) {
+  if (j >= 8) {
     break;
   }
   console.log(j);
